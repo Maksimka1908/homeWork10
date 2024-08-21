@@ -4,10 +4,10 @@ public class Main {
 
         {
             //Задание 1
-            String firstName = "Ivanov";
-            String middleName = "Ivan";
-            String lastName = "Ivanovich";
-            String fullName = firstName + " " + middleName + " " + lastName;
+            String firstName = "Ivan";
+            String middleName = "Ivanovich";
+            String lastName = "Ivanov";
+            String fullName = lastName + " " + firstName + " " + middleName;
             System.out.println("Ф.И.О. сотрудника — " + fullName);
             //Задание 2
             System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета —  " + fullName.toUpperCase());
